@@ -1,0 +1,38 @@
+﻿html,body,.container
+{
+    height:100%;
+}
+.container
+{
+    display:table;
+    width: 100%;
+    margin-top: -100px;
+    padding-top: 100px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header
+{
+    height: 100px;
+}
+
+.row
+{
+    height: 100%;
+    display: table-row;
+}
+.col-md-2.no-float, .col-md-6.no-float {
+    float: none; /* thanks baxabbit */
+}
+
+.col-md-2.site-menu 
+{
+    display: table-cell;
+    background: pink;
+}
+
+.col-md-6.content-section
+{
+    display: table-cell;
+    background: yellow;
+}
