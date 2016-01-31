@@ -7,8 +7,8 @@ myApp.run(function () {
 myApp.config(['$stateProvider', function ($stateProvider) {
     $stateProvider
             .state("homePage", {
-                //url: "/",
-                templateUrl: "../../Home/HomePage.html",
+                url: "/homePage",
+                templateUrl: "../../Home/HomePage.html"
                 //controller: "homePageController",
                 //controllerAs: "homePageController",
                 //data: {
