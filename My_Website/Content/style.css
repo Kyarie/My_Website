@@ -61,6 +61,22 @@ html, body {
     background-size: cover;   
 }
 
+.menu-heading {
+    color: mediumpurple;
+}
+
+.menu-links {
+    border-top: 1px solid rgb(220, 208, 255);
+    border-bottom: 1px solid rgb(220, 208, 255);
+    color: mediumpurple;
+}
+
+.header-content {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 150%;
+}
+
 /*#endregion */
 
 /*#region Content Section */
