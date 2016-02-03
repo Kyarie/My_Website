@@ -18,8 +18,8 @@
 <body ng-controller="myAppController">
     <div class="container">
         <div class="row">
-            <div class="col-xs-8 col-xs-offset-2">
-                <div class="col-xs-3 header-section">
+            <div class="col-xs-10 col-centered" ng-class="headerClass">
+                <div class="col-xs-3 header-section" ng-style="headerStyle">
                     <table class="header-table" cellspacing="0">
                         <tr>
                             <td class="paper-border-corner"></td>
@@ -29,7 +29,7 @@
                         <tr>
                             <td class="paper-border-left"></td>
                             <td>
-                                <div class="header-img">
+                                <div id="headerImage" class="header-img">
                                 </div>
                             </td>
                             <td class="paper-border-right">
@@ -41,7 +41,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="col-xs-9 header-section">
+                <div class="col-xs-9 header-section" ng-style="headerStyle">
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
             <br />
         </div>
         <div class="row">
-            <div class="col-xs-8 col-xs-offset-2">
+            <div class="col-xs-10 col-centered">
                 <div class="col-xs-3 site-navigation">
                     <table class="header-table" cellspacing="0">
                         <tr>
