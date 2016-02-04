@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-xs-10 col-centered" ng-class="headerClass">
                 <div class="col-xs-3 header-section" ng-style="headerStyle">
-                    <table class="header-table" cellspacing="0">
+                    <table id="headerImage" class="header-table" cellspacing="0">
                         <tr>
                             <td class="paper-border-corner"></td>
                             <td class="paper-border-top"></td>
@@ -29,7 +29,7 @@
                         <tr>
                             <td class="paper-border-left"></td>
                             <td>
-                                <div id="headerImage" class="header-img">
+                                <div class="header-img">
                                 </div>
                             </td>
                             <td class="paper-border-right">
@@ -98,11 +98,32 @@
             </div>
         </div>
     </div>
-    <footer class="footer">
+    <div class="navbar navbar-fixed-bottom footer-style">
         <div class="container">
-            <p class="text-muted">Place sticky footer content here.</p>
+            <div class="col-md-10 col-centered">
+                <div class="col-md-5">
+                    <center>
+                        <p class="text-muted">
+                            <b>Dora Hu</b><br />
+                            University of Waterloo Computer Science <br />
+                            Email: dora.hu@uwaterloo.ca <br />
+                            Phone: (226) 220-2337
+                        </p>
+                    </center>
+                </div>
+                <div class="col-md-5">
+                    <center>
+                        <p class="text-muted">
+                            <b>Find me at: </b><br />
+                            <a href="https://www.facebook.com/xueying.dora"><img src="../../../Resources/Images/facebook_icon.png" class="contact-icon" /></a>
+                            <a href="https://ca.linkedin.com/in/xueyinghu"><img src="../../../Resources/Images/linkedIn_icon.png" class="contact-icon" /></a>
+                            <a href="https://github.com/Kyarie"><img src="../../../Resources/Images/github_icon.png" class="contact-icon" /></a>
+                        </p>
+                    </center>
+                </div>
+            </div>
         </div>
-    </footer>
+    </div>
 </body>
 
 </html>

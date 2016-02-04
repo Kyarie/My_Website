@@ -19,11 +19,22 @@ myApp.config(['$stateProvider', function ($stateProvider) {
 
 myApp.controller('myAppController', ['$state', '$scope', '$window', function ($state, $scope, $window) {
     var ctrl = this;
-    var headerHeight = document.getElementById('headerImage').clientWidth;
+    if ($window.innerHeight < $window.innerWidth) {
+        var headerHeight = document.getElementById('headerImage').clientWidth / 2;
+    }
+    else {
+        var headerHeight = document.getElementById('headerImage').clientWidth;
+    }
+    
     $scope.headerStyle = { height: headerHeight + 'px' }
 
     $(window).on("resize.doResize", function () {
-        headerHeight = document.getElementById('headerImage').clientWidth;
+        if ($window.innerHeight < $window.innerWidth) {
+            headerHeight = document.getElementById('headerImage').clientWidth / 2;
+        }
+        else {
+            headerHeight = document.getElementById('headerImage').clientWidth;
+        }
         $scope.headerStyle = { height: headerHeight + 'px' }
         $scope.$apply(function () {
             //do something to update current scope based on the new innerWidth and let angular update the view.

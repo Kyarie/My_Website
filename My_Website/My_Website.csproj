@@ -220,8 +220,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Resources\Images\facebook_icon.png" />
+    <Content Include="Resources\Images\github_icon.png" />
     <Content Include="Resources\Images\header_lavender.jpg" />
     <Content Include="Resources\Images\header_square.jpg" />
+    <Content Include="Resources\Images\linkedIn_icon.png" />
     <Content Include="Resources\Images\paper_border_bottom.png" />
     <Content Include="Resources\Images\paper_border_right.png" />
     <Content Include="Resources\Images\paper_border_top.png" />
