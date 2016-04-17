@@ -10,21 +10,8 @@ namespace My_Website.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return Redirect(Url.Content("~/app/Menu/menu.html"));
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
     }
 }

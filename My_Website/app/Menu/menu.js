@@ -8,7 +8,7 @@ myApp.config(['$stateProvider', function ($stateProvider) {
     $stateProvider
             .state("homePage", {
                 url: "/",
-                templateUrl: "../../Home/HomePage.html"
+                templateUrl: "../Home/HomePage.html"
                 //controller: "homePageController",
                 //controllerAs: "homePageController",
                 //data: {
@@ -17,7 +17,7 @@ myApp.config(['$stateProvider', function ($stateProvider) {
             })
         .state("resume", {
             url: "/resume",
-            templateUrl: "../../Resume/resume.htm",
+            templateUrl: "../Resume/resume.htm",
             //controller: "homePageController",
             //controllerAs: "homePageController",
             //data: {
