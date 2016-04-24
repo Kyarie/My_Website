@@ -10,7 +10,7 @@ namespace My_Website.Controllers
     {
         public ActionResult Index()
         {
-            return Redirect(Url.Content("~/app/Menu/menu.html"));
+            return Redirect(Url.Content("~/menu.html"));
         }
 
     }

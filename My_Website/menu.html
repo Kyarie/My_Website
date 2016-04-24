@@ -5,14 +5,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../Content/style.css">
+    <link rel="stylesheet" href="Content/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 
     <!--My scripts-->
-    <script src="menu.js"></script>
-    <script src="../../../Scripts/angular-ui-router.min.js"></script>
+    <script src="app/myWebsite.app.js"></script>
+    <script src="Scripts/angular-ui-router.min.js"></script>
+
+    <base href="/" />
 </head>
 
 <body ng-controller="myAppController" ng-style="bodyMarginStyle">
@@ -62,8 +64,13 @@
                             <td class="navigation-content">
                                 <a href="" class="menu-links" ng-click="toHome()">Home</a><br /><br />
                                 <span class="menu-heading">&#9913; About Me &#9913;</span><br />
-                                <a href="" class="menu-links">My Story</a><br />
-                                <a href="" class="menu-links" ng-click="toResume()">Resume</a>
+                                <a href="" class="menu-links" ng-click="toStory()">My Story</a><br />
+                                <a href="" class="menu-links" ng-click="toResume()">Resume</a><br />
+                                <a href="Resources/Documents/DoraHu_Resume.pdf" class="menu-links">Resume Download</a><br /><br />
+                                <span class="menu-heading">&#9913; My Interests &#9913;</span><br />
+                                <a href="" class="menu-links" ng-click="toPlaceholder()">Novel</a><br />
+                                <a href="" class="menu-links" ng-click="toPlaceholder()">Research</a><br />
+                                <a href="" class="menu-links" ng-click="toPlaceholder()">Anime</a><br /><br /><br />
                             </td>
                             <td class="paper-border-right">
                         </tr>
