@@ -229,6 +229,7 @@
     <Content Include="Resources\Images\paper_border_right.png" />
     <Content Include="Resources\Images\paper_border_top.png" />
     <Content Include="Resources\Images\paper_border_left.png" />
+    <Content Include="Resources\Images\profile_picture.png" />
     <Content Include="Resources\Images\transparent.png" />
     <Content Include="Scripts\ai.0.15.0-build58334.js" />
     <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
