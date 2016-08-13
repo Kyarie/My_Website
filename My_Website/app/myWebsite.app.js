@@ -18,7 +18,7 @@ myApp.config(['$stateProvider', function ($stateProvider) {
             })
         .state("resume", {
             url: "/resume",
-            templateUrl: "app/Resume/resume.htm"
+            templateUrl: "app/Resume/resume.html"
             //controller: "homePageController",
             //controllerAs: "homePageController",
             //data: {
@@ -28,6 +28,15 @@ myApp.config(['$stateProvider', function ($stateProvider) {
     .state("myStory", {
         url: "/myStory",
         templateUrl: "app/MyStory/myStory.html"
+        //controller: "homePageController",
+        //controllerAs: "homePageController",
+        //data: {
+        //    displayName: 'Home'
+        //}
+    })
+    .state("research", {
+        url: "/Research",
+        templateUrl: "app/Research/research.html",
         //controller: "homePageController",
         //controllerAs: "homePageController",
         //data: {
@@ -94,6 +103,10 @@ myApp.controller('myAppController', ['$state', '$scope', '$window', function ($s
 
     $scope.toPlaceholder = function () {
         $state.go('placeholder');
+    }
+
+    $scope.toResearch = function () {
+        $state.go('research');
     }
 
     $scope.testing = 'whatever';
